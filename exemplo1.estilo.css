@@ -1,0 +1,37 @@
+/*ARQUIVO CSS*/
+
+/*estrutura do arquio html*/
+
+body {
+	font-family:Arial;
+    font-size:2em;
+}
+
+header {
+	 width:100%;
+	 height:45px;
+	 background:#008080;
+	 float:left;
+	 color:#7FFFD4
+}	   
+
+nav {
+    width:100%;
+    height:120px;
+	background:#008080;
+	float:rigth;
+	color:#FF1493;
+}
+
+main {
+     width:100%;
+     height:495px;
+     float:rigth;
+	 background-color:#4B0082
+}
+
+footer {
+	  widows:100%;
+	  height:50px;
+	  clear:both;
+	
