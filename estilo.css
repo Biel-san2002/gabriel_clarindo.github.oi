@@ -3,58 +3,65 @@
 /*Estrutura do arquivo html tela grande*/
 body {
 	font: 1em/150% Arial, Helvetica, sans-serif;
+	background-color:#00BFFF
 }
 
 header {
-	height:200px;
+	height:140px;
 	background:#09c;
-	color:#00FFFF;
-	font-size:30px;
-	
+	background-color:#FF0000;
 }
 
+nav {
+	background-color:#000080
+	
+}	
+
 main {
-	width:300px;
-	height:1000px;
-	background:#00FA9A;
-	float:left;
+	width:782px;
+	height:550px;
+	background:#fff;
+	float:right;
 }
 
 aside {
-	width:300px;
-	height:310px;
+	width:210px;
+	height:550px;
 	float:left;
 	background:#0c6;
+	background-color:#FF0000
 }
 
 footer {
 	clear:both;
-	}
+	color:#4B0082;
+    background-color:#800000;
+}
 	
 section {
 	padding:5px;
-	width:980px;
-	margin: 60px auto;
+	width:1000px;
+	margin: 20px auto;
 }
 	
 	
 /*Acabamentos - Frufru*/
 main {
-	background-color:#00FF00;
+	background-color:#06c;
 }
 
 aside {
-	background-color:#7FFF00;
+	background-color:#fcf;
 }
 
 footer {
-	background-color:#4B0082;
+	background-color:#fc3;
 }
 
-header, main, aside {margin-bottom:5px;}
+header, main, aside, nav {margin-bottom:5px;}
 section, header, aside, main, footer{
 	border:solid 1px #ccc;
-	border-radius:5px;
+	border-radius:7px;
 }
 
 
@@ -77,4 +84,3 @@ section, header, aside, main, footer{
 	section {width:90%;}
 	main {width:65%;}
 	aside {width:30%;}
-}
